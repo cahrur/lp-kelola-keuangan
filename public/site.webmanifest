@@ -1,0 +1,16 @@
+{
+  "name": "Kelola Keuangan",
+  "short_name": "KelolaKeu",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f2f7f4",
+  "theme_color": "#1e9a72",
+  "description": "Aplikasi keuangan pribadi dengan AI asisten untuk transaksi, anggaran, dan laporan.",
+  "icons": [
+    {
+      "src": "/logo.webp",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ]
+}

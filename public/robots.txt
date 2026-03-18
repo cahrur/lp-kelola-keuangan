@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kk.mudahdeal.com/sitemap.xml
+

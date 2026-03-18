@@ -69,11 +69,13 @@ Project ini sudah disiapkan workflow GitHub Actions:
 Langkah aktivasi:
 
 1. Push semua perubahan ke GitHub repository.
-2. Buka `Settings > Pages`.
-3. Pada bagian `Build and deployment`, pilih `Source: GitHub Actions`.
-4. Pastikan workflow `Deploy to GitHub Pages` berjalan sukses setelah push.
-5. Di DNS domain, arahkan `kk.mudahdeal.com` ke GitHub Pages (record CNAME ke `<username>.github.io`).
-6. Setelah propagasi DNS selesai, aktifkan `Enforce HTTPS` di halaman Pages.
+2. Buka `Settings > Actions > General`, lalu set `Workflow permissions` ke **Read and write permissions**.
+3. Buka `Settings > Pages`.
+4. Pada bagian `Build and deployment`, pilih `Source: GitHub Actions`.
+5. Simpan perubahan (aktivasi ini perlu hak admin repo dan cukup sekali).
+6. Jalankan ulang workflow `Deploy to GitHub Pages`.
+7. Di DNS domain, arahkan `kk.mudahdeal.com` ke GitHub Pages (record CNAME ke `<username>.github.io`).
+8. Setelah propagasi DNS selesai, aktifkan `Enforce HTTPS` di halaman Pages.
 
 ### Deploy ke Coolify
 
